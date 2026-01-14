@@ -4,7 +4,7 @@ A modern, feature-rich invoice management dashboard built for MSMEs to track inv
 
 ## 🚀 Live Demo
 
-**Deployment URL:** [To be added after deployment]
+**Deployment URL:** [(https://invoice-management-beta-beryl.vercel.app/)]
 
 ## 📋 Features Implemented
 
@@ -231,40 +231,6 @@ const invoice = {
 }
 ```
 
-## ⏱️ Time Breakdown
-
-- **Design & Planning**: 1.5 hours
-  - Understanding requirements
-  - Component architecture planning
-  - UI/UX wireframing
-  
-- **Development**: 4 hours
-  - Core components: 2 hours
-  - Business logic: 1 hour
-  - Styling & responsive design: 1 hour
-  
-- **Testing & Debugging**: 1 hour
-  - Edge case testing
-  - Performance testing with large datasets
-  - Cross-browser testing
-  
-- **Documentation**: 0.5 hours
-  - README creation
-  - Code comments
-  
-**Total Time**: 7 hours
-
-## 🧪 Testing
-
-### Manual Testing Checklist
-- ✅ Add new invoices with various payment terms
-- ✅ Mark invoices as paid with different payment dates
-- ✅ Filter by all status types
-- ✅ Sort by amount, date, and due date (both asc/desc)
-- ✅ Search by invoice number and customer name
-- ✅ Test with 500+ invoices for performance
-- ✅ Responsive design on mobile, tablet, and desktop
-- ✅ LocalStorage persistence across page refreshes
 
 ### Edge Cases Handled
 - Empty invoice list
@@ -275,50 +241,6 @@ const invoice = {
 - Payment dates in the future
 - Past due invoices
 
-## 🚀 Deployment Guide
 
-### Deploying to Vercel
 
-1. Push code to GitHub
-2. Visit [vercel.com](https://vercel.com)
-3. Click "New Project"
-4. Import your repository
-5. Configure build settings:
-   - Framework Preset: Vite
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-6. Click "Deploy"
-
-### Deploying to Netlify
-
-1. Push code to GitHub
-2. Visit [netlify.com](https://netlify.com)
-3. Click "Add new site" → "Import an existing project"
-4. Connect to GitHub and select repository
-5. Configure build settings:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-6. Click "Deploy site"
-
-## 📝 Future Enhancements
-
-- Export to CSV functionality
-- Dark/Light mode toggle
-- Charts for visual analytics (recharts)
-- Bulk actions (select multiple, mark as paid)
-- Invoice templates
-- Email notifications for overdue invoices
-- Backend API integration
-- User authentication
-
-## 🤝 Contributing
-
-This is an assignment project. For questions or issues, please contact the developer.
-
-## 📄 License
-
-This project was created as part of an internship assignment for QistonPe.
-
----
-
-**Built with ❤️ by [Your Name]**
+**Built with ❤️ by [Korra Nithin]**
